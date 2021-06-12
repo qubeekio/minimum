@@ -1,0 +1,51 @@
+{
+  "name": "@qubeekio/minimum",
+  "version": "1.2.0",
+  "description": "Helper function, that helps to delay promise execution",
+  "main": "dist/minimum.cjs.js",
+  "module": "dist/minimum.esm.js",
+  "browser": "dist/minimum.umd.js",
+  "author": {
+    "name": "Shek Maxim",
+    "email": "shek.maxim@qubeek.io",
+    "url": "https://qubeek.io"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "ava": "^3.15.0",
+    "rollup": "^1.29.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "ava test.js",
+    "pretest": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "promise",
+    "resolve",
+    "delay",
+    "defer",
+    "wait",
+    "stall",
+    "timeout",
+    "settimeout",
+    "event",
+    "loop",
+    "next",
+    "tick",
+    "delay",
+    "async",
+    "await",
+    "promises",
+    "bluebird"
+  ],
+  "license": "MIT"
+}
